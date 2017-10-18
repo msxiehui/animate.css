@@ -1,0 +1,15 @@
+@keyframes rotateLR {
+  from {
+    transform-origin: center;
+    transform: rotateZ(-360deg);
+  }
+
+  to {
+    transform-origin: center;
+    transform: none;
+  }
+}
+
+.rotateLR {
+  animation-name: rotateLR;
+}
