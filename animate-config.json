@@ -67,7 +67,10 @@
   ],
 
   "rotating_entrances": [
+    "rotateLR",
+    "rotateRL",
     "rotateIn",
+    "rotateInR",
     "rotateInDownLeft",
     "rotateInDownRight",
     "rotateInUpLeft",
@@ -91,6 +94,9 @@
 
   "zooming_entrances": [
     "zoomIn",
+    "zoomInBig",
+    "zoomInSTB",
+    "zoomInBTS",
     "zoomInDown",
     "zoomInLeft",
     "zoomInRight",
