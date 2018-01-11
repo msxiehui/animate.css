@@ -1,0 +1,18 @@
+@keyframes zoomInBTS {
+  from {
+    opacity: 0;
+    transform: scale(1.2 ,1.2);
+    -webkit-transform: scale(1.2,1.2);
+  }
+  50% {
+    opacity: 1;
+  }
+  to {
+    /*transform: scale(1, 1);*/
+    /*-webkit-transform: scale( 1, 1);*/
+  }
+}
+
+.zoomInBTS {
+  animation-name: zoomInBTS;
+}
